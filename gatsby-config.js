@@ -45,8 +45,8 @@ ecommerce website developer  `,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Xtreme Workplace`,
+        short_name: `Official`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
