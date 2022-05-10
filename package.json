@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "xtremeworkplace",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Xtreme Workplace is a Digital marketing company. we are empowering MSME & startup business Owners to grow their business online through our web solutions.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Team Xtreme Workplace <info@xtremeworkplace.in>",
   "dependencies": {
     "@headlessui/react": "^1.6.1",
     "@heroicons/react": "^1.0.6",
