@@ -1,13 +1,38 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Xtreme Workplace`,
+    description: `Xtreme Workplace is a Digital marketing company. we are empowering MSME & startup business Owners to grow their business online through our web solutions.`,
+    author: `@Anujsharma`,
+    siteUrl: `https://xtremeworkplace.in/`,
+    keywords: `ecommerce, ecommerce store, estore,e-commerce web design companies,
+    e-commerce web design companies,
+ecommerce web design agency delhi,
+ecommerce web design agency amazon,
+ecommerce web design agency amazon india,
+ecommerce web design agency app,
+ecommerce web design agency india,
+ecommerce web design agency fees,
+ecommerce web design agency glassdoor,
+ecommerce web design agency google,
+ecommerce web design agency near me,
+ecommerce web design agency noida,
+ecommerce web design agency of india,
+ecommerce web design agency online,
+ecommerce website designer near me,
+ecommerce website design price in india,
+ecommerce website development noida,
+ecommerce website development usa,
+wordpress ecommerce web designer near me,
+ecommerce website developer in delhi,
+ecommerce website developer in india, 
+ecommerce website developer near me,
+ecommerce website developer  `,
+    image: `src/images/xwmain3.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,11 +53,34 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+      },
+      
+    },
+    {
+      resolve: `gatsby-plugin-tawk.to`,
+      options: {
+        tawkId: "62762d1f7b967b11798e3200",
+        tawkKey: "1g2eq0h4i",
+        
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+  
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/index/`,`/estore/`,`/biz/`,`/consult/`,`/network/`,`/sales/`, `/terms/*`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-226963239-1",
+        // this option places the tracking script into the head of the DOM
+        head: true,
+        // other options
+      },
+    },
+
   ],
 }

@@ -1,10 +1,3 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
@@ -19,12 +12,15 @@ function Seo({ description, lang, meta, title }) {
             title
             description
             author
+            keywords
+            image
           }
         }
       }
     `
   )
-
+  const image = site.siteMetadata.image
+  const keywords = site.siteMetadata.keywords
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
@@ -41,6 +37,10 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: keywords,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -53,8 +53,16 @@ function Seo({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
+        },
+        {
+          name: `twitter:image`,
+          content: image,
         },
         {
           name: `twitter:creator`,
@@ -81,6 +89,8 @@ Seo.defaultProps = {
 
 Seo.propTypes = {
   description: PropTypes.string,
+  image: PropTypes.string,
+  keywords:PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
