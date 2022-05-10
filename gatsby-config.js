@@ -69,7 +69,7 @@ ecommerce website developer  `,
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/index/`,`/estore/`,`/biz/`,`/consult/`,`/network/`,`/sales/`, `/terms/*`],
+        precachePages: [`/`, `/estore/*`],
       },
     },
     {
