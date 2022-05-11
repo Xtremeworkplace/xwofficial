@@ -39,7 +39,7 @@ ecommerce website developer near me,
 ecommerce website developer "
     image="../images/biznet.png"/>
     
-    <div className="bg-red-accent-400">
+    
     <div className="relative flex flex-col-reverse px-4 py-16 mx-auto lg:block lg:flex-col lg:py-32 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full">
       <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
         <StaticImage
@@ -56,7 +56,7 @@ ecommerce website developer "
                 Super Network
               </p>
             </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none">
               Business Community,
               <br className="hidden md:block" />
               More Than{' '}
@@ -73,7 +73,7 @@ ecommerce website developer "
       </div>
     </div>
 
-</div>
+
   
 
 <div className="bg-red-50">
@@ -81,7 +81,7 @@ ecommerce website developer "
         <div className="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
           <svg
             viewBox="0 0 88 88"
-            className="w-full max-w-screen-xl text-red-accent-400"
+            className="w-full max-w-screen-xl text-amber-700"
           >
             <circle
               fill="currentColor"
@@ -154,7 +154,7 @@ ecommerce website developer "
     </div>
 
 
-    <div className="bg-red-accent-400">
+    <div className="bg-amber-700">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
