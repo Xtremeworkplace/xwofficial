@@ -46,7 +46,7 @@ ecommerce website developer  `,
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Xtreme Workplace`,
-        short_name: `Official`,
+        short_name: `XW Team`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
@@ -69,7 +69,25 @@ ecommerce website developer  `,
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/`, `/estore/*`],
+        precachePages: [`/index/*`],
+        runtimeCaching: [
+          // previous definitions from the default config
+          
+          {
+            urlPattern: /^https:\/\/fonts\.gstatic\.com/,
+            handler: 'cacheFirst',
+            options: {
+              cacheableResponse: {
+                statuses: [0, 200]
+              },
+              cacheName: 'google-fonts-webfonts',
+              expiration: {
+                maxAgeSeconds: 60 * 60,
+                maxEntries: 30
+              }
+            }
+          },
+        ]
       },
     },
     {
