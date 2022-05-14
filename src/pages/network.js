@@ -205,7 +205,7 @@ ecommerce website developer "
                 Charge Your Business
               </h2>
               <p className="text-lg text-gray-900 md:text-2xl">
-               Join community and get some extra fuel for your business to charge it.
+               Join super network community and get some extra fuel for your business to charge it.
               </p>
             </div>
             <div>

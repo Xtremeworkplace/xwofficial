@@ -75,7 +75,7 @@ ecommerce website developer "
           Sales Operations Team 
         </h2>
         <p className="text-xl text-gray-900 md:text-xl">
-          Best Customer Care Executive , Live Chat Support Team & Many More
+          Best Customer Care Executive, Live Chat Support Team & Many More
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3">
@@ -87,7 +87,7 @@ ecommerce website developer "
             <p className="text-lg font-bold leading-5">Product Training</p>
           </div>
           <p className="text-lg text-gray-900">
-            Online training for Sales & marketing internal team. 
+            Sales expert will help your team with Virtual training for Sales & marketing. 
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-deep-purple-accent-200 hover:-translate-y-2">
@@ -98,7 +98,7 @@ ecommerce website developer "
             <p className="text-lg font-bold leading-5">Live Chat Support</p>
           </div>
           <p className="text-lg text-gray-900">
-            Website Traffic Will Handle and Track by Super Live Chat Team.
+            Our Live chat expert will manage your real time website traffic & convert your leads for sales. 
           </p>
         </div>
         <div className="relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm border-deep-purple-accent-700 hover:-translate-y-2">
@@ -109,7 +109,7 @@ ecommerce website developer "
             <p className="text-lg font-bold leading-5">Email Support</p>
           </div>
           <p className="text-lg text-gray-900">
-            Support Desk Manage by our Email support Team.
+            Our Email expert executive will manage your backend email support desk system.
           </p>
           <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-deep-purple-accent-400 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
             <svg

@@ -62,12 +62,12 @@ ecommerce website developer  "
             Everything you
             <br className="hidden md:block" />
             can imagine{' '}
-            <span className="inline-block text-deep-purple-accent-400">
+            <span className="inline-block text-amber-700">
               is real
             </span>
           </h2>
           <p className="pr-5 mb-5 text-lg text-gray-900 md:text-xl">
-            Xtreme Workplace will create a automation business process for your business, hassle free customer experience & many more
+            Xtreme Workplace will create an automation process for your business, hassle free customer experience & many more
           </p>
           <div className="flex items-center">
             <Link href="+918383066031"
@@ -96,7 +96,7 @@ ecommerce website developer  "
           Business process
         </p>
         <p className="text-lg text-gray-900 md:text-xl">
-        No More Business Loss, Due to Our Bad Human Resource Experiences, Why Our Customer Will Endure All This When We Can Create Hassle-Free Solutions
+        No More Business Loss! due to our bad human resource experiences.Why should customers will endure all this when we can create hassle-free solutions.
         </p>
       </div>
       <div className="grid gap-6 row-gap-5 lg:grid-cols-3">
@@ -110,7 +110,7 @@ ecommerce website developer  "
            Sales Automation
           </h5>
           <p className="text-gray-900 text-lg">
-            Sales Page to Converting Sales for high coversions without any human interaction.
+            Sales Page for high conversion without any human interaction.
           </p>
         </div>
         <div>
@@ -123,7 +123,7 @@ ecommerce website developer  "
             CRM Automation
           </h5>
           <p className="text-gray-900 text-lg">
-            CRM implementation to CRM Automation Process for smooth customer relationship management
+            Crm automation to implementation for smooth customer relationship management.
           </p>
         </div>
         <div>
@@ -136,7 +136,7 @@ ecommerce website developer  "
             Customer Support Automation
           </h5>
           <p className="text-gray-900 text-lg">
-            Customer Support System-Live chat to Telecalling & many more.
+            Convert real time traffic on your website by chat bots.
           </p>
         </div>
       </div>
@@ -153,15 +153,15 @@ ecommerce website developer  "
               </p>
             </div>
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none">
-              Business Automation
+              Business automation
               <br className="md:block" />
-              On Auto Pilot{' '}
+             turns on {' '}
               <span className="inline-block text-amber-700">
-                Mode in Business
+              Auto Pilot Mode 
               </span>
             </h2>
             <p className="text-lg text-gray-700 md:text-xl">
-             <strong>Light Kite Fly High</strong> Model always help businesses to grow their higher revenue with few team members.
+             <strong>Light Kite Fly High</strong> Model always help businesses to earn higher revenue with less human resources.
             </p>
           </div>
           <Link

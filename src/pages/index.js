@@ -100,9 +100,9 @@ ecommerce website developer "
       <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
       <p className="text-lg text-center text-gray-900 md:text-2xl">
-      <strong>No More Management , Focus On Your Business Growth</strong> <br />
+      <strong>No More Management, Focus On Your Business Growth</strong> <br />
      
-      We know most of eCommerce business owners struggling with manage multiple services to grow their business, therefore we are introducing a complete package for your business.
+     We know most of the eCommerce business owners struggle with managing multiple services to grow their business. therefore we are introducing a business growth package that will help you to boost your business.
               </p></div>
         <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
@@ -233,15 +233,15 @@ ecommerce website developer "
           </div>
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              Hire Team !
+              Hire Team!
               <br className="hidden md:block" />
              For Your{' '}
-              <span className="inline-block text-deep-purple-accent-400">
+              <span className="inline-block text-amber-700">
                 destination
               </span>
             </h2>
             <p className="text-xl text-gray-800 md:text-lg">
-             Introducing startup package for MSME companies where you can avail all services at affordable cost.
+             Introducing business growth package for MSME companies where you can avail all services at affordable cost.
             </p>
           </div>
           <div>
