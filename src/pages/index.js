@@ -80,7 +80,7 @@ ecommerce website developer "
                 Footfall, High Conversion Rate
               </h2>
               <p className="text-xl text-gray-900 md:text-2xl">
-                Go online with your own eCommerce store & mobile application to get high traffic, high sales revenue
+                <strong>Hire Team</strong> at one employee's monthly salary to manage sales operations for <strong>Better sales,</strong> and <strong>Better revenue.</strong>
               </p>
             </div>
             <div>

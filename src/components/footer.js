@@ -37,7 +37,7 @@ const footer = () => {
           </Link>
           <div className="mt-6 lg:max-w-sm">
             <p className="text-base text-gray-600">
-              Xtreme Workplace is a Digital marketing company. We are empowering MSME & startup business Owners to grow their online business through our web solutions.
+              Xtreme Workplace is a Digital marketing company. We are empowering MSME & startup business Owners to grow their online business through our web solutions & services.
             </p>
             <p className="mt-4 text-base text-gray-600">
               Core Services: Web Development, App Development, Online Automation Sales System, CRM Automation, Google Ads, Social Ads, SEO Services, Video Marketing, Online Events, Training & many more. 
@@ -77,7 +77,7 @@ const footer = () => {
               title="Our address"
               className="transition-colors duration-300 text-gray-600 hover:text-lime-300"
             >
-              Delhi, India (Remote)
+              Made with ❤️ in India, Delhi (Working Remotely)
             </Link>
           </div>
         </div>

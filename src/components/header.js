@@ -46,11 +46,7 @@ function Nav() {
                     Super Network
                   </Link>
 
-                  <Link to="/consult"
-                    className="text-gray-50 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Consulting
-                  </Link>
+                 
                 </div>
                 
               </div>
@@ -139,11 +135,7 @@ function Nav() {
                   Super Network
                 </Link>
 
-                <Link to="/consult"
-                  className="text-gray-50 hover:bg-gray-800 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                 Consulting
-                </Link>
+               
               </div>
             </div>
           )}
