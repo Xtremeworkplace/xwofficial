@@ -244,7 +244,7 @@ Hire a team for...
             </svg>
             <span className="relative">Hire</span>
           </span>{' '}
-   a team at the cost of one month employee's salary
+   a remote team at the cost of one month employee's salary
         </h2>
         <p className="text-base text-gray-900 md:text-lg">
         We know what it’s like to wear your shoes. 
