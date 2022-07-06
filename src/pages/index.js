@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -179,22 +179,22 @@ Hire a team for...
         <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-900">
-              IT Support
+              Graphics Design
             </p>
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-900">
-              Marketing
+              Web Design 
             </p>
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-900">
-             Customer Support
+             Video Editing
             </p>
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-900">
-              Sales Support
+              Digital Marketing
             </p>
           </div>
           
@@ -210,12 +210,11 @@ Hire a team for...
 
 
 
-
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs md:text-xl font-semibold tracking-wider text-amber-700 uppercase rounded-full bg-gray-900">
-          Dreams and teams work together.
+          <p className="inline-block px-3 py-px mb-4 text-lg font-semibold tracking-wider text-amber-700 uppercase rounded-full bg-gray-900">
+            Monthly Subscription
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -227,7 +226,7 @@ Hire a team for...
             >
               <defs>
                 <pattern
-                  id="ace59d72-08d5-4850-b9e4-d9d0b86c0525"
+                  id="bc9273ce-29bb-4565-959b-714607d4d027"
                   x="0"
                   y="0"
                   width=".135"
@@ -237,309 +236,102 @@ Hire a team for...
                 </pattern>
               </defs>
               <rect
-                fill="url(#ace59d72-08d5-4850-b9e4-d9d0b86c0525)"
+                fill="url(#bc9273ce-29bb-4565-959b-714607d4d027)"
                 width="52"
                 height="24"
               />
             </svg>
             <span className="relative">Hire</span>
           </span>{' '}
-   a remote team at the cost of one month employee's salary
+          a remote team at the cost of one monthly subscription.
         </h2>
-        <p className="text-base text-gray-900 md:text-lg">
+        <p className="text-base text-gray-700 md:text-lg">
         We know what it’s like to wear your shoes. 
 Xtreme Workplace has always been a remote, asynchronous team—
 that’s why we built the most effective digital marketing employment services for dispersed, high-growth teams.
         </p>
       </div>
-      <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-10 lg:max-w-screen-md lg:grid-cols-2 sm:mx-auto">
-        <div className="flex flex-col justify-between p-5 bg-white border rounded shadow-sm">
-          <div className="mb-6">
-            <div className="flex items-center justify-between pb-6 mb-6 border-b">
-              <div>
-                <p className="text-sm font-bold tracking-wider uppercase">
-                 5% Discount on Services
-                </p>
-                <p className="text-3xl font-extrabold">4 Members Team</p>
-              </div>
-              <div className="flex items-center justify-center w-24 h-24 rounded-full bg-blue-gray-50">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
-</svg>
-              </div>
-            </div>
+      <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
+          <div className="relative w-full h-48">
+            <StaticImage
+              src="../images/basic.jpeg"
+              className="object-cover w-full h-full rounded-t"
+              alt="Plan"
+            />
+          </div>
+          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
             <div>
-              <p className="mb-2 font-bold tracking-wide">All in one Team</p>
-              <ul className="space-y-2">
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">
-                    Web Designer
-                  </p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Graphics Designer</p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Advertiser</p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Social Media Handler</p>
-                </li>
-              </ul>
+              <div className="text-lg font-semibold">Basic</div>
+              <p className="text-sm text-gray-900">
+              Graphics Design & Video Editing Team
+              </p>
+              
             </div>
-          </div>
-          <div>
-            <Link href="tel:+918383066031"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-amber-700 hover:text-amber-900 transition duration-200 bg-gray-900 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
-            >
-              Hire Team Now
-            </Link>
-            <p className="text-sm text-gray-600">
-              Pay in indian rupee. Simple monthly contract. Know More &nbsp; <Link to="/work">How its work</Link>
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col justify-between p-5 bg-white border rounded shadow-sm">
-          <div className="mb-6">
-            <div className="flex items-center justify-between pb-6 mb-6 border-b">
-              <div>
-                <p className="text-sm font-bold tracking-wider uppercase">
-                  10% Discount on Services
-                </p>
-                <p className="text-3xl font-extrabold">8 Members Team</p>
-              </div>
-              <div className="flex items-center justify-center w-24 h-24 rounded-full bg-indigo-50">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
-</svg>
-              </div>
-            </div>
-            <div>
-              <p className="mb-2 font-bold tracking-wide">All in one Team</p>
-              <ul className="space-y-2">
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Inclueded 4 Members team</p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">
-                   Content Writer
-                  </p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Video Editor</p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Marketing Expert</p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeLidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Email Marketing Expert</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
             <Link
               href="tel:+918383066031"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-light-green-900 hover:bg-light-green-900 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
-              Hire Team Now
+              Buy Basic
             </Link>
-            <p className="text-sm text-gray-600">
-            Pay in indian rupee. Simple monthly contract. Know More &nbsp; <Link to="/work">How its work</Link>
-            </p>
+          </div>
+        </div>
+        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
+          <div className="relative w-full h-48">
+          <StaticImage
+              src="../images/advance.jpeg"
+              className="object-cover w-full h-full rounded-t"
+              alt="Plan"
+            />
+          </div>
+          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+            <div>
+              <div className="text-lg font-semibold">Advanced</div>
+              <p className="text-sm text-gray-900">
+              Graphics Design, Video Editing & Digital Marketing Team
+              </p>
+             
+            </div>
+            <Link
+              href="tel:+918383066031"
+              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            >
+              Buy Advanced
+            </Link>
+          </div>
+        </div>
+        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
+          <div className="relative w-full h-48">
+          <StaticImage
+              src="../images/pro.jpeg"
+              className="object-cover w-full h-full rounded-t"
+              alt="Plan"
+            />
+          </div>
+          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+            <div>
+              <div className="text-lg font-semibold">Pro</div>
+              <p className="text-sm text-gray-900">
+               Graphics Design, Video Editing, Web Design & Digital Marketing Team
+              </p>
+              
+            </div>
+            <Link
+              href="tel:+918383066031"
+              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            >
+              Buy Pro
+            </Link>
           </div>
         </div>
       </div>
     </div>
+
+
+
+
+
+
 
 
 
