@@ -12,29 +12,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Grow your B2B or B2C ecommerce business|ecommerce sales solutions" 
     description="Go online with your own eCommerce store & mobile application to get high traffic, high sales revenue. For More Sales & revenue explore our digital solutions and services."
-    keywords="xtreme workplace, xtreme workplace app development, xtreme workplace web developer, xtreme workplace web development company, xtreme workplace web design company noida, xtreme workplace,
-    e-commerce web design companies,
-ecommerce web design agency delhi,
-ecommerce web design agency amazon,
-ecommerce web design agency amazon india,
-ecommerce web design agency app,
-ecommerce web design agency india,
-ecommerce web design agency fees,
-ecommerce web design agency glassdoor,
-ecommerce web design agency google,
-ecommerce web design agency near me,
-ecommerce web design agency noida,
-ecommerce web design agency of india,
-ecommerce web design agency online,
-ecommerce website designer near me,
-ecommerce website design price in india,
-ecommerce website development noida,
-ecommerce website development usa,
-wordpress ecommerce web designer near me,
-ecommerce website developer in delhi,
-ecommerce website developer in india, 
-ecommerce website developer near me,
-ecommerce website developer "
+    keywords="xtreme workplace, xtreme workplace app development, "
     image="../images/super1.png"/>
    
     
@@ -46,7 +24,7 @@ ecommerce website developer "
           <div className="max-w-xl mb-6">
             <div>
               <p className="inline-block px-3 py-px mb-4 text-lg font-semibold text-xl tracking-wider text-gray-900 uppercase rounded-full bg-amber-700">
-                Hire Expert Team Now
+                Hire Team Now
               </p>
             </div>
             <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-6xl sm:leading-none">
@@ -58,7 +36,7 @@ ecommerce website developer "
               </span>
             </h2>
             <p className="text-base text-white md:text-2xl">
-            Turn more leads into revenue with a high-performance dedicated team— built for ambitious, manufacturer companies.
+            Turn more leads into revenue with a high-performance, dedicated team—built for ambitious e-commerce business owners.
             </p>
           </div>
           <Link
@@ -123,7 +101,7 @@ ecommerce website developer "
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div className="flex flex-col mb-4 sm:text-center sm:mb-0">
         <p className="text-2xl text-white md:text-4xl">
-                Xtreme Workplace Digital Marketing Team For Core manufacturers
+        Hire A Digital Marketing Team If You Are...
               </p></div></div></div>
 
 
@@ -133,22 +111,22 @@ ecommerce website developer "
           
           <div className="px-10 py-20 text-center transition duration-300 transform bg-white rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-800">
-              Clothing and Textiles
+              Amazon Seller
             </p>
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-white rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-800">
-              Pharmaceuticals
+            Local Business Owner
             </p>
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-white rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-800">
-              Industrial Equipments
+            Core Manufacturer
             </p>
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-white rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-xl text-gray-800">
-              Printing & Publishing
+              Social Media Seller
             </p>
           </div>
         
@@ -243,13 +221,20 @@ Hire a team for...
             </svg>
             <span className="relative">Hire</span>
           </span>{' '}
-          a remote team at the cost of one monthly subscription.
+         A Team In A Few Minutes
         </h2>
+        
         <p className="text-base text-gray-700 md:text-lg">
         We know what it’s like to wear your shoes. 
 Xtreme Workplace has always been a remote, asynchronous team—
 that’s why we built the most effective digital marketing employment services for dispersed, high-growth teams.
         </p>
+        <p className="text-base text-gray-700 md:text-lg">
+        One flat monthly fee. No Contracts, no hidden fees, no stress of finding a great designer, video editor & digital marketing expert.
+        </p>
+
+
+
       </div>
       <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
         <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
