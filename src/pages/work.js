@@ -168,9 +168,9 @@ If you'd like to speak to a human, talk to one of <Link href="tel:+918383066031"
                       height="24"
                     />
                   </svg>
-                  <span className="relative">Book</span>
+                  <span className="relative">Make</span>
                 </span>{' '}
-                A Call With Us
+                An Appointment With Us
               </h2>
               <p className="text-xl text-gray-900 md:text-2xl">
               Ready to learn more about how xtreme workplace can help you save time, and money on your goals? Book a 1:1 call with xtreme workplace experts today!
