@@ -216,8 +216,8 @@ const IndexPage = () => (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-lg font-semibold tracking-wider text-amber-700 uppercase rounded-full bg-gray-900 hover:bg-pink-accent-400">
-            Monthly Subscription
+          <p className="inline-block px-3 py-px mb-4 text-lg font-semibold tracking-wider text-white uppercase rounded-full bg-amber-900">
+            Monthly Fee
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -229,7 +229,7 @@ const IndexPage = () => (
             >
               <defs>
                 <pattern
-                  id="bc9273ce-29bb-4565-959b-714607d4d027"
+                  id="7e5e8ff8-1960-4094-a63a-2a0c0f922d69"
                   x="0"
                   y="0"
                   width=".135"
@@ -239,99 +239,105 @@ const IndexPage = () => (
                 </pattern>
               </defs>
               <rect
-                fill="url(#bc9273ce-29bb-4565-959b-714607d4d027)"
+                fill="url(#7e5e8ff8-1960-4094-a63a-2a0c0f922d69)"
                 width="52"
                 height="24"
               />
             </svg>
-            <span className="relative">Hire</span>
+            <span className="relative"> Hire</span>
           </span>{' '}
-         A Team In A Few Minutes
+          A Team In A Few Minutes
         </h2>
-        
-        <p className="text-base text-gray-700 md:text-lg">
-        We know what it’s like to wear your shoes. 
-Xtreme Workplace has always been a remote, asynchronous team—
-that’s why we built the most effective digital marketing employment services for dispersed, high-growth teams.
+        <p className="text-xl text-gray-900 md:text-2xl">
+        One flat fee. No Contracts, no hidden fees, no stress of finding a great designer, video editor & digital marketing expert.
         </p>
-        <p className="text-base text-gray-700 md:text-lg">
-        One flat monthly fee. No Contracts, no hidden fees, no stress of finding a great designer, video editor & digital marketing expert.
+        <p className="text-xl text-gray-900 md:text-2xl">
+        4 Expert Teams have been added to all plans.
         </p>
-
-
-
       </div>
-      <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
-        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
-          <div className="relative w-full h-48">
-            <StaticImage
-              src="../images/basic.jpeg"
-              className="object-cover w-full h-full rounded-t"
-              alt="Plan"
-            />
-          </div>
-          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
-            <div>
-              <div className="text-lg font-semibold">Basic</div>
-              <p className="text-sm text-gray-900">
-              Graphics Design & Video Editing Team
-              </p>
-              
+      <div className="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+        <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+          <div className="text-center">
+            <div className="text-lg font-semibold">Starter</div>
+            <div className="flex items-center justify-center mt-2">
+              <div className="mr-1 text-5xl font-bold">9,999 Rs</div>
             </div>
+            <div className="mt-2 space-y-3">
+              <div className="text-gray-900">1 Sales Funnel</div>
+              <div className="text-gray-900">3x1 Social Ads</div>
+              <div className="text-gray-900">1 Product Video Editing</div>
+              <div className="text-gray-900">5 Product Creatives </div>
+            </div>
+          </div>
+          <div>
             <Link
               href="tel:+918383066031"
-              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded shadow-md hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
             >
-              Buy Basic
+              Book Now
             </Link>
+            <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+            This plan includes: Valid till 30 Days
+            </p>
           </div>
         </div>
-        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
-          <div className="relative w-full h-48">
-          <StaticImage
-              src="../images/advance.jpeg"
-              className="object-cover w-full h-full rounded-t"
-              alt="Plan"
-            />
-          </div>
-          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
-            <div>
-              <div className="text-lg font-semibold">Advanced</div>
-              <p className="text-sm text-gray-900">
-              Graphics Design, Video Editing & Digital Marketing Team
-              </p>
-             
+        <div className="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow border-deep-purple-accent-400">
+          <div className="absolute inset-x-0 top-0 flex justify-center -mt-3">
+            <div className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-white uppercase rounded bg-deep-purple-accent-400">
+              Most Popular
             </div>
+          </div>
+          <div className="text-center">
+            <div className="text-lg font-semibold">Pro</div>
+            <div className="flex items-center justify-center mt-2">
+              <div className="mr-1 text-5xl font-bold">15,999 </div>
+              <div className="text-gray-900">Rs</div>
+            </div>
+            <div className="mt-2 space-y-3">
+              <div className="text-gray-900">1 Sales Funnel</div>
+              <div className="text-gray-900">1 Landing Page</div>
+              <div className="text-gray-900">5x1 Social Ads</div>
+              <div className="text-gray-900">2 Product Video Editing</div>
+              <div className="text-gray-900">10 Product Creatives</div>
+            </div>
+          </div>
+          <div>
             <Link
               href="tel:+918383066031"
-              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
             >
-              Buy Advanced
+              Book Now
             </Link>
+            <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+            This plan includes: Valid till 30 Days
+            </p>
           </div>
         </div>
-        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
-          <div className="relative w-full h-48">
-          <StaticImage
-              src="../images/pro.jpeg"
-              className="object-cover w-full h-full rounded-t"
-              alt="Plan"
-            />
-          </div>
-          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
-            <div>
-              <div className="text-lg font-semibold">Pro</div>
-              <p className="text-sm text-gray-900">
-               Graphics Design, Video Editing, Web Design & Digital Marketing Team
-              </p>
-              
+        <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+          <div className="text-center">
+            <div className="text-lg font-semibold">Business</div>
+            <div className="flex items-center justify-center mt-2">
+              <div className="mr-1 text-5xl font-bold">25,999 </div>
+              <div className="text-gray-900">Rs</div>
             </div>
+            <div className="mt-2 space-y-3">
+              <div className="text-gray-900">1 E-commerce website</div>
+              <div className="text-gray-900">1 Sales Funnel</div>
+              <div className="text-gray-900">5x1 Social Ads</div>
+              <div className="text-gray-900">2 Product Video Editing</div>
+              <div className="text-gray-900">10 Product Creatives</div>
+            </div>
+          </div>
+          <div>
             <Link
               href="tel:+918383066031"
-              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded shadow-md hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
             >
-              Buy Pro
+              Book Now
             </Link>
+            <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+            This plan includes: Valid till 30 Days
+            </p>
           </div>
         </div>
       </div>

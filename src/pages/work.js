@@ -103,7 +103,7 @@ If you'd like to speak to a human, talk to one of <Link href="tel:+918383066031"
           Connect. Collaborate.
         </h2>
         <p className="text-xl text-gray-900 md:text-2xl">
-        One flat monthly fee. No Contracts, no hidden fees, no stress of finding a great designer, video editor & digital marketing expert.
+        One flat fee. No Contracts, no hidden fees, no stress of finding a great designer, video editor & digital marketing expert.
         </p>
       </div>
       <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
@@ -111,9 +111,9 @@ If you'd like to speak to a human, talk to one of <Link href="tel:+918383066031"
           <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-deep-purple-accent-400 bg-indigo-50 sm:mx-auto">
             1
           </div>
-          <h6 className="mb-2 text-xl font-semibold leading-5">Choose Monthly Package</h6>
+          <h6 className="mb-2 text-xl font-semibold leading-5">Choose Package</h6>
           <p className="max-w-md mb-3 text-xl text-gray-900 sm:mx-auto">
-            Tell us your requirement, our expert team will customised monthly package as per need.
+          Our expert team will do the project as mentioned in the package as per your needs.
           </p>
         </div>
         <div className="sm:text-center">
@@ -122,16 +122,16 @@ If you'd like to speak to a human, talk to one of <Link href="tel:+918383066031"
           </div>
           <h6 className="mb-2 text-xl font-semibold leading-5">No Contract</h6>
           <p className="max-w-md mb-3 text-xl text-gray-900 sm:mx-auto">
-            No Contract & No Hidden Fee, our dedicated team will start our work as per your requirements.
+          There is no contract and no hidden fees.
           </p>
         </div>
         <div className="sm:text-center">
           <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-deep-purple-accent-400 bg-indigo-50 sm:mx-auto">
             3
           </div>
-          <h6 className="mb-2 text-xl font-semibold leading-5">Approval</h6>
+          <h6 className="mb-2 text-xl font-semibold leading-5">Track & Downloads</h6>
           <p className="max-w-md mb-3 text-xl text-gray-900 sm:mx-auto">
-          Approve the work to receive your source files & other task. 
+          Track all the work through our client portal and download all the work.
           </p>
         </div>
       </div>
