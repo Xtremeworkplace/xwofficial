@@ -182,7 +182,7 @@ const IndexPage = () => (
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
-            Organic Traffic
+            SEO
             </p>
           </div>
           <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
