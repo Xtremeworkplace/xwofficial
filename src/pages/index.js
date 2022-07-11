@@ -135,63 +135,88 @@ const IndexPage = () => (
     </div>
 
 
-    <div className="bg-gray-900">
+
+
+    <div className="bg-black">
       <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
-         
-
-
-
-         
+          <svg
+            viewBox="0 0 88 88"
+            className="w-full max-w-screen-xl text-yellow-accent-200"
+          >
+           
+           
+          </svg>
         </div>
 
 
-        <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-5 lg:px-4 lg:py-5">
+        <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-4 lg:px-4 lg:py-4">
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
-          <div className="flex flex-col mb-4 sm:text-center sm:mb-0">
-        <p className="text-2xl text-pink-accent-400 md:text-4xl">
-        Fire up your end-to-end sales growth engine with experts < br/>
-Hire a team for...
-              </p></div></div></div>
+          <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
+
+          <p className="text-3xl text-lime-50 md:text-6xl">
+          Fire up your end-to-end <strong className="text-pink-accent-400">sales growth engine</strong>
+              </p>
+
+            </div>
+            </div>
+            </div>
+
+
 
         <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-xl text-gray-900">
-              Graphics Design
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+            Sales Funnel 
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-xl text-gray-900">
-              Web Design 
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+            Landing Pages
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-xl text-gray-900">
-             Video Editing
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+            Business Automation
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-amber-700 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-xl text-gray-900">
-              Digital Marketing
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+            Organic Traffic
             </p>
           </div>
-          
-         
-
-          
-
-
-
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+            Social Ads
+            </p>
+          </div>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+           YT Video Editing
+            </p>
+          </div>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+            Web Design
+            </p>
+          </div>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 hover:bg-pink-accent-400 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <p className="font-semibold text-gray-200">
+            Graphics Design 
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
 
 
+
+
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-lg font-semibold tracking-wider text-amber-700 uppercase rounded-full bg-gray-900">
+          <p className="inline-block px-3 py-px mb-4 text-lg font-semibold tracking-wider text-amber-700 uppercase rounded-full bg-gray-900 hover:bg-pink-accent-400">
             Monthly Subscription
           </p>
         </div>
