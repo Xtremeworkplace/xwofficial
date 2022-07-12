@@ -217,7 +217,7 @@ const IndexPage = () => (
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-lg font-semibold tracking-wider text-white uppercase rounded-full bg-amber-900">
-            Monthly Fee
+          One flat fee
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -277,7 +277,7 @@ const IndexPage = () => (
               Book Now
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-            This plan includes: Valid till 30 Days
+            Valid till 30 Days
             </p>
           </div>
         </div>
@@ -309,7 +309,7 @@ const IndexPage = () => (
               Book Now
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-            This plan includes: Valid till 30 Days
+            Valid till 30 Days
             </p>
           </div>
         </div>
@@ -336,7 +336,7 @@ const IndexPage = () => (
               Book Now
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-            This plan includes: Valid till 30 Days
+            Valid till 30 Days
             </p>
           </div>
         </div>
