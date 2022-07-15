@@ -12,7 +12,7 @@ const terms = () => {
     <Seo title="Terms Policy | Privacy Policy " 
     description="These Terms and Conditions constitute a legally binding agreement made between you & company. read policy now"
     keywords="terms and conditions policy, terms of use, terms of conditions policy xtreme workplace, xtreme workplace terms, xtreme workplace privacy policy, xtreme workplace disclaimer"
-    image="../images/super1.png"/>
+    image="../images/social1.jpg"/>
 
 
     

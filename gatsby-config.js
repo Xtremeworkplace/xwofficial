@@ -27,7 +27,7 @@ ecommerce website developer in delhi,
 ecommerce website developer in india, 
 ecommerce website developer near me,
 ecommerce website developer  `,
-    image: `src/images/xwmain3.jpg`
+    image: `src/images/social1.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

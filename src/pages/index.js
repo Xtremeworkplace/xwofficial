@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Seo title="Digital Marketing Agency In Delhi | Hire team in a few minutes" 
     description="Turn more leads into revenue with a high-performance, dedicated team—built for ambitious e-commerce business owners."
     keywords="xtreme workplace, xtreme workplace app development, Digital marketing agency in delhi, digital marketing near me, digital marketing agency in noida, Marketing agecny near me, marketing agency in delhi, Seo, Seo agency in delhi, seo agency for amazon sellers, seo agency for amazon business owners, "
-    image="../images/super1.png"/>
+    image="../images/social1.jpg"/>
    
     
 

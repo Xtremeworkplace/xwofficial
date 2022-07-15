@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Seo title="Hire a team for one flat monthly fee. Grow your business. Grow your sales." 
     description="One flat monthly fee. No Contracts, no hidden fees, no stress of finding a great designer, video editor & digital marketing expert."
     keywords="xtreme workplace, xtreme workplace app development, Digital marketing agency in delhi, digital marketing near me, digital marketing agency in noida, Marketing agecny near me, marketing agency in delhi, Seo, Seo agency in delhi, seo agency for amazon sellers, seo agency for amazon business owners, "
-    image="../images/super1.png"/>
+    image="../images/social1.jpg"/>
    
     
    <div className="bg-gradient-to-r from-indigo-accent-400 to-pink-accent-400">

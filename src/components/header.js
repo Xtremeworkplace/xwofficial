@@ -32,7 +32,11 @@ function Nav() {
                     How its Work
                   </Link>
 
-                  
+                  <Link to="/faq"
+                    className=" hover:bg-gray-900 text-gray-700 hover:text-amber-700 px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    FAQ
+                  </Link>
 
                   <Link href="https://www.youtube.com/channel/UCcMSMQR5jzshfqf2H0L3UCg?sub_confirmation=1"
                     className="text-gray-700 hover:bg-gray-900 hover:text-amber-700 px-3 py-2 rounded-md text-sm font-medium"
@@ -119,6 +123,11 @@ function Nav() {
                 >
                  How its Work
                 </Link>
+                <Link to="/faq"
+                    className=" hover:bg-gray-900 text-gray-700 hover:text-amber-700 px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    FAQ
+                  </Link>
 
                 <Link href="https://www.youtube.com/channel/UCcMSMQR5jzshfqf2H0L3UCg?sub_confirmation=1" target="_blank"
                   className="text-gray-700 hover:bg-gray-900 hover:text-amber-700 block px-3 py-2 rounded-md text-base font-medium"
