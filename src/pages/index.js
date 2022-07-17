@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import { StaticImage } from "gatsby-plugin-image"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -263,18 +263,18 @@ const IndexPage = () => (
               <div className="mr-1 text-5xl font-bold">9,999 Rs</div>
             </div>
             <div className="mt-2 space-y-3">
-              <div className="text-gray-900">1 Sales Funnel</div>
-              <div className="text-gray-900">3x1 Social Ads</div>
-              <div className="text-gray-900">1 Product Video Editing</div>
-              <div className="text-gray-900">5 Product Creatives </div>
+              <div className="text-gray-900">Ecommerce website with</div>
+              <div className="text-gray-900">Hosting (1 Year)</div>
+              <div className="text-gray-900">SSL</div>
+              <div className="text-gray-900">High Security </div>
             </div>
           </div>
           <div>
             <Link
-              href="tel:+918383066031"
+              href="mailto:info@xtremeworkplace.in"
               className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded shadow-md hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
             >
-              Book Now
+             Book via email
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
             Valid till 30 Days
@@ -294,19 +294,19 @@ const IndexPage = () => (
               <div className="text-gray-900">Rs</div>
             </div>
             <div className="mt-2 space-y-3">
-              <div className="text-gray-900">1 Sales Funnel</div>
+              <div className="text-gray-900">Starter Plus</div>
               <div className="text-gray-900">1 Landing Page</div>
-              <div className="text-gray-900">5x1 Social Ads</div>
-              <div className="text-gray-900">2 Product Video Editing</div>
-              <div className="text-gray-900">10 Product Creatives</div>
+              <div className="text-gray-900">2x1 Social Ads</div>
+              <div className="text-gray-900">1 Product Video Editing</div>
+              <div className="text-gray-900">5 Product Creatives</div>
             </div>
           </div>
           <div>
             <Link
-              href="tel:+918383066031"
+              href="mailto:info@xtremeworkplace.in"
               className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
             >
-              Book Now
+              Book via email
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
             Valid till 30 Days
@@ -315,25 +315,25 @@ const IndexPage = () => (
         </div>
         <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
           <div className="text-center">
-            <div className="text-lg font-semibold">Business</div>
+            <div className="text-lg font-semibold">VIP</div>
             <div className="flex items-center justify-center mt-2">
               <div className="mr-1 text-5xl font-bold">25,999 </div>
               <div className="text-gray-900">Rs</div>
             </div>
             <div className="mt-2 space-y-3">
-              <div className="text-gray-900">1 E-commerce website</div>
+              <div className="text-gray-900">Pro Plus</div>
               <div className="text-gray-900">1 Sales Funnel</div>
-              <div className="text-gray-900">5x1 Social Ads</div>
-              <div className="text-gray-900">2 Product Video Editing</div>
-              <div className="text-gray-900">10 Product Creatives</div>
+              <div className="text-gray-900">Email Automation Software Setup (T&C Apply)</div>
+              <div className="text-gray-900">Whatsapp Api Integration Setup</div>
+              <div className="text-gray-900">Marketplace Training</div>
             </div>
           </div>
           <div>
             <Link
-              href="tel:+918383066031"
+              href="mailto:info@xtremeworkplace.in"
               className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded shadow-md hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
             >
-              Book Now
+            Book via email
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
             Valid till 30 Days
