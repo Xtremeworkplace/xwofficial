@@ -258,26 +258,33 @@ const IndexPage = () => (
       <div className="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
         <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
           <div className="text-center">
-            <div className="text-lg font-semibold">Starter</div>
+            <div className="text-lg font-semibold">Premium</div>
             <div className="flex items-center justify-center mt-2">
-              <div className="mr-1 text-5xl font-bold">9,999 Rs</div>
+              <div className="mr-1 text-5xl font-bold">9,999</div>
+              <div className="text-gray-900">Rs</div>
             </div>
             <div className="mt-2 space-y-3">
               <div className="text-gray-900">Ecommerce website with</div>
               <div className="text-gray-900">Hosting (1 Year)</div>
               <div className="text-gray-900">SSL</div>
               <div className="text-gray-900">High Security </div>
+              <div className="text-gray-900">5 Creatives for Home Page </div>
+              <div className="text-gray-900">Custom Email Setup </div>
+              <div className="text-gray-900">Custom Domain Setup </div>
+              <div className="text-gray-900">Choose our premium plan to take your local store or offline business online, grow online, and scale online.</div>
+
+
             </div>
           </div>
           <div>
             <Link
               href="mailto:info@xtremeworkplace.in"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded shadow-md hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-indigo-accent-700 rounded shadow-md hover:bg-indigo-accent-400 focus:shadow-outline focus:outline-none"
             >
              Book via email
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-            Valid till 30 Days
+            Valid till 30 Days <Link to="/faq">FAQ Pricing & Services</Link>
             </p>
           </div>
         </div>
@@ -288,55 +295,62 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="text-center">
-            <div className="text-lg font-semibold">Pro</div>
+            <div className="text-lg font-semibold">Advanced</div>
             <div className="flex items-center justify-center mt-2">
-              <div className="mr-1 text-5xl font-bold">15,999 </div>
+              <div className="mr-1 text-5xl font-bold">14,999 </div>
               <div className="text-gray-900">Rs</div>
             </div>
             <div className="mt-2 space-y-3">
-              <div className="text-gray-900">Starter Plus</div>
-              <div className="text-gray-900">Social Media Listing</div>
-              <div className="text-gray-900">Amazon Business Listing (T&C Apply)</div>
-              <div className="text-gray-900">1 Product Ad Video Editing</div>
-              <div className="text-gray-900">5 Product Creatives</div>
+              <div className="text-gray-900">Ecommerce website with</div>
+              <div className="text-gray-900">Hosting (1 Year)</div>
+              <div className="text-gray-900">High Secure SSL</div>
+              <div className="text-gray-900">High Security</div>
+              <div className="text-gray-900">5 Creatives For Ads</div>
+              <div className="text-gray-900">Custom Email Setup</div>
+              <div className="text-gray-900">Custom Domain Setup</div>
+              <div className="text-gray-900">Email Marketing Software Setup (T&C Apply) </div>
+              <div className="text-gray-900">Mini Sales Funnel (3X1 Step Process)</div>
+              <div className="text-gray-900">1 Brand Video For Ads</div>
             </div>
           </div>
           <div>
             <Link
               href="mailto:info@xtremeworkplace.in"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-accent-700 hover:bg-indigo-accent-400 focus:shadow-outline focus:outline-none"
             >
               Book via email
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-            Valid till 30 Days
+            Valid till 30 Days <Link to="/faq">FAQ Pricing & Services</Link>
             </p>
           </div>
         </div>
         <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
           <div className="text-center">
-            <div className="text-lg font-semibold">VIP</div>
+            <div className="text-lg font-semibold">Custom Solution</div>
             <div className="flex items-center justify-center mt-2">
-              <div className="mr-1 text-5xl font-bold">25,999 </div>
+              <div className="mr-1 text-5xl font-bold">2,999</div>
               <div className="text-gray-900">Rs</div>
             </div>
             <div className="mt-2 space-y-3">
-              <div className="text-gray-900">Pro Plus</div>
-              <div className="text-gray-900">1 Sales Funnel</div>
-              <div className="text-gray-900">Email Automation Software Setup (T&C Apply)</div>
-              <div className="text-gray-900">Whatsapp Api Integration Setup (T&C Apply)</div>
-              <div className="text-gray-900">Marketplace Training</div>
+              <div className="text-gray-900">Get a custom plan for your ecommerce startup, local business, core manufacturing, social business, etc.Custom services are chargeable at Rs. 2,999 per service.</div>
+              <div className="text-gray-900">Email Marketing Software Setup (T&C Apply)</div>
+              <div className="text-gray-900">CRM Business Setup (T&C Apply)</div>
+              <div className="text-gray-900">Google My Business Listing (T&C Apply)</div>
+              <div className="text-gray-900">1x1 Store Landing Page(T&C Apply)</div>
+              <div className="text-gray-900">Amazon Business Listing (T&C Apply)</div>
+
             </div>
           </div>
           <div>
             <Link
               href="mailto:info@xtremeworkplace.in"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded shadow-md hover:bg-pink-accent-400 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-indigo-accent-700 rounded shadow-md hover:bg-indigo-accent-400 focus:shadow-outline focus:outline-none"
             >
             Book via email
             </Link>
             <p className="max-w-xs mt-6 text-xs text-gray-900 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-            Valid till 30 Days
+            Valid till 30 Days <Link to="/faq">FAQ Pricing & Services</Link>
             </p>
           </div>
         </div>

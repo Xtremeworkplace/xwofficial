@@ -48,7 +48,7 @@ const IndexPage = () => (
               </svg>
               <span className="relative">FAQ | </span>
             </span>{' '}
-            Learn more about our <strong>Services & Pricing</strong>
+            Learn more about our <strong className="underline">services & pricing</strong>
           </h2>
          
         </div>
