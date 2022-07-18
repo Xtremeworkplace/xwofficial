@@ -295,9 +295,9 @@ const IndexPage = () => (
             </div>
             <div className="mt-2 space-y-3">
               <div className="text-gray-900">Starter Plus</div>
-              <div className="text-gray-900">1 Landing Page</div>
-              <div className="text-gray-900">2x1 Social Ads</div>
-              <div className="text-gray-900">1 Product Video Editing</div>
+              <div className="text-gray-900">Social Media Listing</div>
+              <div className="text-gray-900">Amazon Business Listing (T&C Apply)</div>
+              <div className="text-gray-900">1 Product Ad Video Editing</div>
               <div className="text-gray-900">5 Product Creatives</div>
             </div>
           </div>
@@ -324,7 +324,7 @@ const IndexPage = () => (
               <div className="text-gray-900">Pro Plus</div>
               <div className="text-gray-900">1 Sales Funnel</div>
               <div className="text-gray-900">Email Automation Software Setup (T&C Apply)</div>
-              <div className="text-gray-900">Whatsapp Api Integration Setup</div>
+              <div className="text-gray-900">Whatsapp Api Integration Setup (T&C Apply)</div>
               <div className="text-gray-900">Marketplace Training</div>
             </div>
           </div>
